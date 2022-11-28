@@ -123,7 +123,7 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "   liboemcrypto.so disabler    "
+  ui_print "        MiSoundDisabler        "
   ui_print "*******************************"
 }
 
@@ -178,10 +178,10 @@ mask_lib() {
   MAGISKPATH=$(magisk --path)
 
   local mirror=/$MAGISKPATH/.magisk/mirror
-  local so=liboemcrypto.so
+  local so=libmisoundfx.so
 
   for part in system vendor; do
-    for libdir in lib lib64; do
+    for libdir in lib/soundfx lib64/soundfx; do
       if [ -s $mirror/$part/$libdir/$so ]; then
 	size=$(ls -l $mirror/$part/$libdir/$so | awk '{print $5}')
         ui_print "- Found /$part/$libdir/$so, which is $size bytes."
