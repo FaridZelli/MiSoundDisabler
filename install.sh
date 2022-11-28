@@ -124,6 +124,7 @@ REPLACE="
 print_modname() {
   ui_print "*******************************"
   ui_print "        MiSoundDisabler        "
+  ui_print "        by Farid Zelli         "
   ui_print "*******************************"
 }
 
