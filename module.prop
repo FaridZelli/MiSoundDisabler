@@ -1,6 +1,6 @@
-id=liboemcryptodisabler
-name=liboemcrypto disabler
-version=v1.5
+id=libmisoundfxdisabler
+name=MiSound Disabler
+version=v1.0
 versionCode=15
-author=ianmacd
-description=Disables liboemcrypto.so on rooted devices to allow DRM-protected content to play (e.g. Netflix, My5, etc.).
+author=FaridZelli
+description=Disables MiSound on AOSP Custom ROMs.
